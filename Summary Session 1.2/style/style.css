@@ -1,0 +1,35 @@
+/* all - все теги */
+/* обнуление стилей */
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* color: black; */
+    /* подчеркивание текста */
+    /* text-decoration: none; */
+    /* размер текста */
+    /* font-size: 16px; */
+    /* жирность текста */
+    /* font-weight: normal; */
+}
+
+ol, ul{
+    padding-left: 40px;
+    margin: 10px 0;
+}
+
+.list1{
+    list-style: georgian inside none;
+    /* list-style-type: georgian;
+    list-style-position: inside;
+    list-style-image: none; */
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+}
