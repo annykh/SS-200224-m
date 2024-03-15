@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:  none;
+    color: black;
+}
+
+.menu{
+    background-color: black;
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.menu div{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0 10px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu div:hover{
+    background-color: white;
+}
+
+.menu div:hover a{
+    color: black;
+}
+
+h1, h2, p{
+    margin: 10px 5px;
+}
+
+.main{
+    position: relative;
+    top: 50px;
+}
